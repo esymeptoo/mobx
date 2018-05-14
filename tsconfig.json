@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "lib": [
+            "dom",
+            "es5",
+            "es6"
+        ],
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "strictNullChecks": true,
+        "removeComments": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowSyntheticDefaultImports": true,
+        "allowJs": true,
+        "paths": {
+            "~/*" : ["client/*"],
+            "@/*": ["client/*"],
+            "@c/*": ["client/*"],
+            "~store": [".nuxt/store"],
+            "~router": [".nuxt/router"]
+        }
+    }
+}
